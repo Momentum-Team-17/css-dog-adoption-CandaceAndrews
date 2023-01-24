@@ -1,7 +1,25 @@
+body {
+    font-family: Open Sans;
+}
+
 header {
     background-color: #004175;
     color: white;
-    font-family: Open Sans;
-    width: 80%;
-    margin: 0, auto;
+    font-size: 12px;
+    padding: 10px;
+    border-bottom-width: 2px;
+    border-bottom-color: #89DEEF;
+    border-bottom-style: solid;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+img {
+    max-width: 320px;
+    height: auto;
+    /* display: wrap;
+    flex-wrap: space-around;
+    align-items: center; */
 }
