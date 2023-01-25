@@ -18,7 +18,7 @@ h2 {
 }
 
 #dog_container {
-    border: solid red;
+    /* border: solid red; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -26,8 +26,9 @@ h2 {
 }
 
 .dog {
-    border: 3px solid purple;
+    /* border: 3px solid purple; */
     width: 30%;
+    padding-bottom: 10px;
 }
 
 .traits {
@@ -39,14 +40,13 @@ h2 {
 
 .traits>p {
     background-color: #89DEEF;
-    padding: 10px;
+    padding: 5px;
     margin: 0px 10px 10px 0px;
-    font-size: 50%;
+    font-size: 70%;
     border-radius: 30px;
 }
 
 img {
     width: 100%;
-    /* % adjusts to the parent*/
-
+    /* % adjusts to the parent */
 }
