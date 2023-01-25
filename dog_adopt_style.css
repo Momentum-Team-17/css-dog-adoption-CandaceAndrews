@@ -14,11 +14,17 @@ header {
 
 h2 {
     font-size: 20px;
+}
 
+h3 {
+    margin-top: 0%;
+}
+
+#top {
+    padding: 0px 30px 0px 30px;
 }
 
 #dog_container {
-    /* border: solid red; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -26,7 +32,6 @@ h2 {
 }
 
 .dog {
-    /* border: 3px solid purple; */
     width: 30%;
     padding-bottom: 10px;
 }
@@ -48,5 +53,61 @@ h2 {
 
 img {
     width: 100%;
+    height: auto;
     /* % adjusts to the parent */
+    object-fit: cover;
 }
+
+footer {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+    color: white;
+    background-color: #A6A9F0;
+    height: 200px;
+}
+
+.footer_parts {
+    margin: 0;
+    width: 100%;
+    object-fit: cover;
+    text-align: center;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    /* line-height: 20px; */
+}
+
+.footer_parts h2 {
+    margin: auto;
+}
+
+#f1 {
+    background:
+        linear-gradient(rgba(166, 169, 240, 0.9),
+            rgba(166, 169, 240, 0.3)),
+        url(starter_files/images/donate.jpg);
+    background-size: cover;
+}
+
+#f2 {
+    background:
+        linear-gradient(rgba(166, 169, 240, 0.9),
+            rgba(166, 169, 240, 0.3)),
+        url(starter_files/images/volunteer.jpg);
+    background-size: cover;
+}
+
+#f3 {
+    background:
+        linear-gradient(rgba(166, 169, 240, 0.9),
+            rgba(166, 169, 240, 0.3)),
+        url(starter_files/images/location.jpg);
+    background-size: cover;
+}
+
+/* * {
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+} */
