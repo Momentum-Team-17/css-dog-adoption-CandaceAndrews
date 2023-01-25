@@ -26,6 +26,14 @@ h2 {
     border-color: red; */
 }
 
+.dog_listing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
 .dog_listing p {
     font-weight: bold;
 }
@@ -33,10 +41,13 @@ h2 {
 ul {
     list-style-type: none;
     background-color: #89DEEF;
+
 }
 
 .bean {
     background-color: burlywood;
+    border: solid;
+    border-color: red;
 }
 
 .zelda {
