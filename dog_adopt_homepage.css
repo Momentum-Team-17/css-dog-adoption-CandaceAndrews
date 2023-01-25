@@ -16,10 +16,29 @@ h2 {
     font-size: 20px;
 }
 
-img {
+.dogs {
     max-width: 320px;
     height: auto;
-    /* display: wrap;
+    display: wrap;
     flex-wrap: space-around;
-    align-items: center; */
+    justify-content: flex-start;
+    /* border: solid;
+    border-color: red; */
+}
+
+.dog_listing p {
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    background-color: #89DEEF;
+}
+
+.bean {
+    background-color: burlywood;
+}
+
+.zelda {
+    background-color: lightpink;
 }
